@@ -1,37 +1,6 @@
-@import "variables";
-@import "fonts";
+@import "other/allStyle";
 
-body {
-  margin: 0;
-  font-family: 'Gilroy-Bold';
-  font-size: 18px;
-  color: $black;
-  background-color: #ffffff;
-}
-
-a {
-  text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
 
 /* Blocks */
-
-@import "blocks/media";
-@import "blocks/header";
-@import "blocks/container";
-@import "blocks/nav";
-@import "blocks/line";
-@import "blocks/user";
-@import "blocks/logoImg";
-@import "blocks/about";
-@import "blocks/skills";
+@import "blocks/allBlock";
 

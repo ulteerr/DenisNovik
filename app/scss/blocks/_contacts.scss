@@ -1,0 +1,59 @@
+#contacts {
+  .contacts_me {
+    text-align: center;
+
+    h1 {
+      padding-top: 114px;
+    }
+
+    p {
+      margin-top: 20px;
+      font-family: 'Gilroy-Medium';
+      text-align: center;
+    }
+
+    .btn {
+      display: inline-block;
+      vertical-align: top;
+      font-size: 16px;
+      color: #ffffff;
+      background-color: $black;
+      text-decoration: none;
+      border: 1px solid $black;
+      border-radius: 30px;
+      padding: 1.1rem 25px;
+      min-width: 180px;
+      min-height: 42px;
+      text-align: center;
+      transition: background-color .2s linear, color .2s linear, box-shadow .2s linear;
+      margin-bottom: 42px;
+
+      &:hover {
+        color: $black;
+        background-color: #ffffff;
+      }
+    }
+
+    .social {
+      margin-bottom: 45px;
+
+      .social__link {
+        margin: 30px;
+        padding-bottom: 40px;
+        transition: transform .2s linear;
+        img{
+          &:hover {
+            transform: translateY(-5px);
+          }
+        }
+
+      }
+    }
+    span {
+      font-family: 'Gilroy-Medium';
+      font-size: 14px;
+      color: $grey;
+      padding-bottom: 123px;
+    }
+  }
+}

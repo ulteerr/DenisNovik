@@ -1,0 +1,25 @@
+#portfolio {
+  background-color: $greylight;
+  margin-top: 110px;
+
+  h1 {
+    padding-top: 112px;
+    padding-bottom: 47px;
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+    color: $black;
+    text-decoration-line: underline;
+    font-family: 'Gilroy-Medium';
+    padding-bottom: 96px;
+  }
+}
