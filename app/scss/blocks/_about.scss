@@ -1,0 +1,24 @@
+#about {
+  margin-top: 68px;
+  background-color: $greylight;
+}
+
+.about_me {
+  padding-bottom: 71px;
+
+  h1 {
+    padding-top: 156px;
+    padding-bottom: 17px;
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+  }
+
+  p {
+    font-family: 'Gilroy-Medium';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 17px;
+  }
+}

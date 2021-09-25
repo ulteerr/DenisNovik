@@ -1,0 +1,48 @@
+#skills {
+  margin-top: 127px;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+  }
+
+  .desc {
+    font-family: 'Gilroy-Medium';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 67px;
+    margin-bottom: 83px;
+  }
+
+  .skills_app {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 110px;
+  }
+  .rating-result {
+    width: 265px;
+    margin: 0 auto;
+  }
+
+  .rating-result span {
+    padding: 0;
+    font-size: 32px;
+    margin: 0 3px;
+    line-height: 1;
+    color: $greymiddle;
+  }
+
+  .rating-result > span:before {
+    content: '★';
+  }
+
+  .rating-result > span.active {
+    color: $black;
+  }
+  .rating-result_down {
+    margin-top: 41px;
+  }
+}
