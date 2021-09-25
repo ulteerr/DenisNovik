@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  .nav__link {
+    position: relative;
+    font-size: 0.93rem;
+    color: $grey;
+    font-weight: 700;
+
+    &_active {
+      color: $black;
+    }
+  }
+}

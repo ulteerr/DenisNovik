@@ -1,0 +1,40 @@
+.user__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
+  width: 100%;
+
+  .user__name {
+    font-size: 48px;
+  }
+
+  .user__prof {
+    font-family: 'Gilroy-Medium';
+    font-weight: 500;
+  }
+
+  .user__lg {
+    transform: rotate(270deg);
+    color: $black;
+    position: relative;
+
+    .language_content {
+      display: flex;
+      margin-left: -35px;
+      position: absolute; /* добавили */
+      bottom: 54px;
+
+      .language {
+        color: $grey;
+        margin-right: 3px;
+
+        &_active {
+          color: $black;
+        }
+      }
+      .delimiter{
+        margin-right: 3px;
+      }
+    }
+  }
+}
